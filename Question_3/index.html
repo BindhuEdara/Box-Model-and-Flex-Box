@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      width: 500px;
+      height: fit-content;
+      padding: 30px;
+      margin: 10px;
+      border: 3px solid grey;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 10%;
+      border: none;
+    }
+    .container>img{
+      width: 300px;
+    }
+
+    .rating{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    .rating img{
+      width: 130px;
+      height: fit-content;
+    }
+    .rating p:first-child{
+      border: 1px solid green;
+      background-color: green;
+      color: white;
+      padding: 3px;
+      border-radius: 5px;
+      width: 50px;
+      text-align: center;
+      font-weight: bolder;
+    }
+    .rating p:nth-child(2){
+     color: #878893;
+     font-weight: bolder;
+     font-size: larger;
+    }
+    .price{
+      display: flex;
+      align-items: center;
+      gap:10px;
+      font-weight: bolder;
+      font-size: larger;
+    }
+    .price p:nth-child(3){
+      color: green;
+    }
+    .price p:nth-child(2){
+      text-decoration: line-through;
+    }
+    button{
+      letter-spacing: 1px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #878893
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/w/x/h/-original-imahfa7xspmxemvj.jpeg" alt="product_logo">
+    <h3>SAMSUNG Galaxy watch6 LTE</h3>
+    <p style="color: #878893; font-weight: bolder;">Graphite Strap 44mm</p>
+    <div class="rating">
+    <p>4.3 *</p>
+    <p>(973)</p>
+    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" alt="flipkart_logo">
+    </div>
+    <div class="price">
+    <p>₹18,999</p>
+    <p>₹41,999</p>
+    <p>54% off</p>
+    </div>
+    <p style="font-weight: bolder; color: green; font-size: large;letter-spacing: 1px;">Bank Offer</p>
+    <button>Buy Now</button>
+  </div>
+</body>
+</html>
